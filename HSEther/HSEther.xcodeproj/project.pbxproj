@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87B1059D2089871100D58693 /* HSEther.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B1059C2089871100D58693 /* HSEther.m */; };
+		87B1059E2089871100D58693 /* HSEther.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87B1059B2089871100D58693 /* HSEther.h */; };
+		87B1060120898B7300D58693 /* ethers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B105AA2089885A00D58693 /* ethers.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87B105A92089885A00D58693 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87B105A42089885A00D58693 /* ethers.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E2317E631E3191AC00DBE3E4;
+			remoteInfo = ethers;
+		};
+		87B105AB2089885A00D58693 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87B105A42089885A00D58693 /* ethers.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E2317E6C1E3191AC00DBE3E4;
+			remoteInfo = ethersTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		87B105962089871100D58693 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				87B1059E2089871100D58693 /* HSEther.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		87B105982089871100D58693 /* libHSEther.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHSEther.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		87B1059B2089871100D58693 /* HSEther.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSEther.h; sourceTree = "<group>"; };
+		87B1059C2089871100D58693 /* HSEther.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSEther.m; sourceTree = "<group>"; };
+		87B105A42089885A00D58693 /* ethers.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ethers.xcodeproj; path = "ethers.objc-master/ethers.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		87B105AE2089898600D58693 /* CachedDataStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CachedDataStore.m; sourceTree = "<group>"; };
+		87B105AF2089898600D58693 /* SignedRemoteDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignedRemoteDictionary.m; sourceTree = "<group>"; };
+		87B105B02089898600D58693 /* AsyncOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsyncOperation.h; sourceTree = "<group>"; };
+		87B105B12089898600D58693 /* SharedDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharedDefaults.h; sourceTree = "<group>"; };
+		87B105B22089898600D58693 /* UIColor+hex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+hex.m"; sourceTree = "<group>"; };
+		87B105B32089898600D58693 /* Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		87B105B42089898600D58693 /* UIImage+resize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+resize.h"; sourceTree = "<group>"; };
+		87B105B52089898600D58693 /* IndexPathArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndexPathArray.m; sourceTree = "<group>"; };
+		87B105B72089898600D58693 /* IconFont.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconFont.m; sourceTree = "<group>"; };
+		87B105B82089898600D58693 /* IconInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconInfo.m; sourceTree = "<group>"; };
+		87B105B92089898600D58693 /* UIImage+IconFont.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+IconFont.m"; sourceTree = "<group>"; };
+		87B105BA2089898600D58693 /* UIImage+IconFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+IconFont.h"; sourceTree = "<group>"; };
+		87B105BB2089898600D58693 /* IconInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconInfo.h; sourceTree = "<group>"; };
+		87B105BC2089898600D58693 /* IconFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconFont.h; sourceTree = "<group>"; };
+		87B105BD2089898600D58693 /* CachedDataStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CachedDataStore.h; sourceTree = "<group>"; };
+		87B105BE2089898600D58693 /* UIColor+hex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+hex.h"; sourceTree = "<group>"; };
+		87B105BF2089898600D58693 /* SharedDefaults.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SharedDefaults.m; sourceTree = "<group>"; };
+		87B105C02089898600D58693 /* SignedRemoteDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignedRemoteDictionary.h; sourceTree = "<group>"; };
+		87B105C12089898600D58693 /* AsyncOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsyncOperation.m; sourceTree = "<group>"; };
+		87B105C22089898600D58693 /* Utilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		87B105C42089898600D58693 /* CloudKeychainSigner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloudKeychainSigner.h; sourceTree = "<group>"; };
+		87B105C52089898600D58693 /* Signer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Signer.m; sourceTree = "<group>"; };
+		87B105C62089898600D58693 /* CloudKeychainSigner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudKeychainSigner.m; sourceTree = "<group>"; };
+		87B105C72089898600D58693 /* Signer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Signer.h; sourceTree = "<group>"; };
+		87B105C82089898600D58693 /* IndexPathArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexPathArray.h; sourceTree = "<group>"; };
+		87B105C92089898600D58693 /* UIImage+resize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+resize.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87B105952089871100D58693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B1060120898B7300D58693 /* ethers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87B1058F2089871100D58693 = {
+			isa = PBXGroup;
+			children = (
+				87B1059A2089871100D58693 /* HSEther */,
+				87B105992089871100D58693 /* Products */,
+				87B1060020898B7300D58693 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		87B105992089871100D58693 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87B105982089871100D58693 /* libHSEther.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87B1059A2089871100D58693 /* HSEther */ = {
+			isa = PBXGroup;
+			children = (
+				87B105A42089885A00D58693 /* ethers.xcodeproj */,
+				87B1059B2089871100D58693 /* HSEther.h */,
+				87B1059C2089871100D58693 /* HSEther.m */,
+				87B105AD2089898600D58693 /* Utilities */,
+			);
+			path = HSEther;
+			sourceTree = "<group>";
+		};
+		87B105A52089885A00D58693 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87B105AA2089885A00D58693 /* ethers.framework */,
+				87B105AC2089885A00D58693 /* ethersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87B105AD2089898600D58693 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				87B105AE2089898600D58693 /* CachedDataStore.m */,
+				87B105AF2089898600D58693 /* SignedRemoteDictionary.m */,
+				87B105B02089898600D58693 /* AsyncOperation.h */,
+				87B105B12089898600D58693 /* SharedDefaults.h */,
+				87B105B22089898600D58693 /* UIColor+hex.m */,
+				87B105B32089898600D58693 /* Utilities.h */,
+				87B105B42089898600D58693 /* UIImage+resize.h */,
+				87B105B52089898600D58693 /* IndexPathArray.m */,
+				87B105B62089898600D58693 /* IconFont */,
+				87B105BD2089898600D58693 /* CachedDataStore.h */,
+				87B105BE2089898600D58693 /* UIColor+hex.h */,
+				87B105BF2089898600D58693 /* SharedDefaults.m */,
+				87B105C02089898600D58693 /* SignedRemoteDictionary.h */,
+				87B105C12089898600D58693 /* AsyncOperation.m */,
+				87B105C22089898600D58693 /* Utilities.m */,
+				87B105C32089898600D58693 /* Signers */,
+				87B105C82089898600D58693 /* IndexPathArray.h */,
+				87B105C92089898600D58693 /* UIImage+resize.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		87B105B62089898600D58693 /* IconFont */ = {
+			isa = PBXGroup;
+			children = (
+				87B105B72089898600D58693 /* IconFont.m */,
+				87B105B82089898600D58693 /* IconInfo.m */,
+				87B105B92089898600D58693 /* UIImage+IconFont.m */,
+				87B105BA2089898600D58693 /* UIImage+IconFont.h */,
+				87B105BB2089898600D58693 /* IconInfo.h */,
+				87B105BC2089898600D58693 /* IconFont.h */,
+			);
+			path = IconFont;
+			sourceTree = "<group>";
+		};
+		87B105C32089898600D58693 /* Signers */ = {
+			isa = PBXGroup;
+			children = (
+				87B105C42089898600D58693 /* CloudKeychainSigner.h */,
+				87B105C52089898600D58693 /* Signer.m */,
+				87B105C62089898600D58693 /* CloudKeychainSigner.m */,
+				87B105C72089898600D58693 /* Signer.h */,
+			);
+			path = Signers;
+			sourceTree = "<group>";
+		};
+		87B1060020898B7300D58693 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87B105972089871100D58693 /* HSEther */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87B105A12089871100D58693 /* Build configuration list for PBXNativeTarget "HSEther" */;
+			buildPhases = (
+				87B105942089871100D58693 /* Sources */,
+				87B105952089871100D58693 /* Frameworks */,
+				87B105962089871100D58693 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HSEther;
+			productName = HSEther;
+			productReference = 87B105982089871100D58693 /* libHSEther.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87B105902089871100D58693 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = com.houshuai;
+				TargetAttributes = {
+					87B105972089871100D58693 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 87B105932089871100D58693 /* Build configuration list for PBXProject "HSEther" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 87B1058F2089871100D58693;
+			productRefGroup = 87B105992089871100D58693 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 87B105A52089885A00D58693 /* Products */;
+					ProjectRef = 87B105A42089885A00D58693 /* ethers.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				87B105972089871100D58693 /* HSEther */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		87B105AA2089885A00D58693 /* ethers.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ethers.framework;
+			remoteRef = 87B105A92089885A00D58693 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		87B105AC2089885A00D58693 /* ethersTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ethersTests.xctest;
+			remoteRef = 87B105AB2089885A00D58693 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87B105942089871100D58693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B1059D2089871100D58693 /* HSEther.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		87B1059F2089871100D58693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87B105A02089871100D58693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87B105A22089871100D58693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VMU346QXHU;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ethers.objc-master\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7s";
+			};
+			name = Debug;
+		};
+		87B105A32089871100D58693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VMU346QXHU;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ethers.objc-master\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87B105932089871100D58693 /* Build configuration list for PBXProject "HSEther" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87B1059F2089871100D58693 /* Debug */,
+				87B105A02089871100D58693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87B105A12089871100D58693 /* Build configuration list for PBXNativeTarget "HSEther" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87B105A22089871100D58693 /* Debug */,
+				87B105A32089871100D58693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87B105902089871100D58693 /* Project object */;
+}
