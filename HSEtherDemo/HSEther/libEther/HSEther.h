@@ -2,8 +2,6 @@
 //  HSEther.h
 //  HSEther
 //
-//  Created by 侯帅 on 2018/4/20.
-//  Copyright © 2018年 com.houshuai. All rights reserved.
 //
 // 1 添加pch文件，全局引入 #import <UIKit/UIKit.h>
 // 2 在需要使用的地方 引入 #import "HSEther.h"
@@ -110,27 +108,6 @@ typedef NS_ENUM(NSInteger, HSWalletError) {
  @param block 回调
  */
 +(void)hs_sendToAssress:(NSString *)toAddress money:(NSString *)money tokenETH:(NSString *)tokenETH decimal:(NSString *)decimal currentKeyStore:(NSString *)keyStore pwd:(NSString *)pwd gasPrice:(NSString *)gasPrice gasLimit:(NSString *)gasLimit block:(void(^)(NSString *hashStr,BOOL suc,HSWalletError error))block;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @end
